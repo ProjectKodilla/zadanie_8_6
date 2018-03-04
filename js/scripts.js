@@ -1,3 +1,4 @@
+
 // scripts.js
 // komentrza jednoliniowy
 /* komentarz blokowy
@@ -21,3 +22,22 @@ console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is eq
 alert('Pole trójkąta wynosi ' + triangleArea)
 
 //koniec zadania_8_5
+
+// zadanie_8_6
+
+var a = 12;
+var b = 3;
+var value = (a * a) - (2 * a * b) - (b * b);
+console.log(value);
+if (value > 0)
+{
+console.log("liczba dodatnia");
+}
+else if (value < 0)
+{
+console.log("liczba ujemna");
+}
+else 
+{
+console.log("równa zero");
+}
